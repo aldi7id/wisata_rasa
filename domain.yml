@@ -1,0 +1,97 @@
+version: "2.0"
+actions:
+  - action_botfront_disambiguation
+  - action_botfront_disambiguation_followup
+  - action_botfront_fallback
+  - action_botfront_mapping
+  - utter_bye
+  - utter_get_started
+  - utter_hi
+  - utter_oZRN-fHnR
+  - utter_oceanparkbsdcitydesc
+  - utter_oceanparkbsdcityimage
+  - utter_scientiasqurepark
+  - utter_scientiasqureparkimage
+  - utter_tamankotabsd1
+  - utter_tamankotabsd1image
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - oceanparkbsdcity
+  - scientiasquarepark
+  - tamankota1bsd
+  - tanyawisata
+
+responses:
+  utter_get_started:
+  - text: "Selamat Datang"
+
+  utter_oZRN-fHnR:
+  - text: "Ini Response Ketika Wisata"
+
+  utter_oceanparkbsdcitydesc:
+  - buttons:
+    - payload: /oceanparkbsdcity
+      title: Ocean Park BSD City
+      subtitle: Scientia Square Park Subtitle
+      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      location: "https://i.imgur.com/nGF1K8f.jpg"
+    - payload: /scientiasquarepark
+      title: Scientia Square Park
+      subtitle: Scientia Square Park Subtitle
+      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      location: "https://i.imgur.com/nGF1K8f.jpg"
+    - payload: /oceanparkbsdcity
+      title: Ocean Park BSD City
+      subtitle: Scientia Square Park Subtitle
+      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      location: "https://i.imgur.com/nGF1K8f.jpg"
+    - payload: /scientiasquarepark
+      title: Scientia Square Park
+      subtitle: Scientia Square Park Subtitle
+      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      location: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_oceanparkbsdcityimage:
+  - text: "Ini Response Ketika Ocean Park Gambar"
+
+  utter_scientiasqurepark:
+  - text: "Ini Response Ketika Scientia"
+
+  utter_scientiasqureparkimage:
+  - text: "Ini Response Ketika Scientia Gambar"
+
+  utter_tamankotabsd1:
+  - text: "Ini Response Ketika Taman Kota"
+
+  utter_tamankotabsd1image:
+  - text: "Ini Response Ketika Taman Kota Gambar"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
