@@ -36,27 +36,7 @@ responses:
   - text: "Ini Response Ketika Wisata"
 
   utter_oceanparkbsdcitydesc:
-  - buttons:
-    - payload: /oceanparkbsdcity
-      title: Ocean Park BSD City
-      subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: /scientiasquarepark
-      title: Scientia Square Park
-      subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: /oceanparkbsdcity
-      title: Ocean Park BSD City
-      subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: /scientiasquarepark
-      title: Scientia Square Park
-      subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Ini Response Ketika Ocean Park Gambar"
 
   utter_oceanparkbsdcityimage:
   - text: "Ini Response Ketika Ocean Park Gambar"
