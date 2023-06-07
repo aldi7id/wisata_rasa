@@ -56,9 +56,11 @@ responses:
     - payload: /oceanparkbsdcity
       title: Ocean Park BSD City
       subtitle: Scientia Square Park Subtitle
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+      photo: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
-
+    button_type: vertical
+    custom:
+      sticker: "https://github.com/TelegramBots/book/raw/master/src/docs/sticker-fred.webp"
 
   utter_oceanparkbsdcityimage:
   - text: "Ini Response Ketika Ocean Park Gambar"
