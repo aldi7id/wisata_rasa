@@ -41,22 +41,22 @@ responses:
     - payload: Ocean Park BSD City
       title: Ocean Park BSD City
       subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
     - payload: Scientia Square Park
       title: Ocean Park BSD City
       subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
     - payload: Taman Kota BSD 1
       title: Taman Kota BSD 1
       subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
     - payload: /oceanparkbsdcity
       title: Ocean Park BSD City
       subtitle: Scientia Square Park Subtitle
-      image_url: "https://i.imgur.com/nGF1K8f.jpg"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
 
 
