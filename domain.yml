@@ -59,9 +59,13 @@ responses:
       subtitle: Scientia Square Park Subtitle
       photo: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
-    button_type: vertical
+    button_type: reply
     custom:
-      sticker: "https://github.com/TelegramBots/book/raw/master/src/docs/sticker-fred.webp"    
+      location:
+        longitude: 1.0
+        latitude: 1.0
+      title: Venue Title
+      address: Venue Address
 
   utter_oceanparkbsdcityimage:
   - text: "Ini Response Ketika Ocean Park Gambar"
