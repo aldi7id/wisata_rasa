@@ -1,4 +1,4 @@
-FROM python:3.7.7-stretch AS BASE
+FROM python:3.8.12-stretch AS BASE
 
 # Update stretch repositories
 RUN sed -i -e 's/deb.debian.org/archive.debian.org/g' \
