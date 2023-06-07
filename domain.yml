@@ -37,7 +37,7 @@ responses:
 
   utter_oceanparkbsdcitydesc:
   - text: "Ini Response Ketika Ocean Park Gambar"
-  - buttons:
+    buttons:
     - payload: /oceanparkbsdcity
       title: Ocean Park BSD City
 
