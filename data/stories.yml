@@ -1,0 +1,64 @@
+version: "2.0"
+
+rules:
+- rule: mulai
+  steps:
+  - intent: get_started
+  - action: utter_get_started
+  conversation_start: true
+  
+- rule: Ocean Park BSD City
+  steps:
+  - intent: oceanparkbsdcity
+    user: Ocean Park BSD City
+  - action: utter_oceanparkbsdcitydesc
+  - action: utter_oceanparkbsdcityimage
+
+- rule: Scientia Square Park
+  steps:
+  - intent: scientiasquarepark
+    user: Scientia Square Park
+  - action: utter_scientiasqurepark
+  - action: utter_scientiasqureparkimage
+
+- rule: Taman Kota 1 BSD
+  steps:
+  - intent: tamankota1bsd
+    user: Taman Kota 1 BSD
+  - action: utter_tamankotabsd1
+  - action: utter_tamankotabsd1image
+
+stories:
+- story: minta list wisata
+  steps:
+  - intent: tanyawisata
+    user: Wisata
+  - action: utter_oZRN-fHnR
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
