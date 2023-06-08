@@ -14,6 +14,7 @@ actions:
   - utter_scientiasqureparkimage
   - utter_tamankotabsd1
   - utter_tamankotabsd1image
+  - utter_listwisata1
 
 intents:
   - greet
@@ -33,7 +34,14 @@ responses:
   - text: "Selamat Datang"
 
   utter_oZRN-fHnR:
-  - text: "Ini Response Ketika Wisata"
+  - image: "https://i.imgur.com/nGF1K8f.jpg"
+    custom:
+    caption: "Ini Caption"
+  
+  utter_listwisata1:
+  - image: "https://i.imgur.com/nGF1K8f.jpg"
+    custom:
+    caption: "Ini Caption"
 
   utter_oceanparkbsdcitydesc:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -60,10 +68,6 @@ responses:
       photo: "https://i.imgur.com/nGF1K8f.jpg"
       location: "https://i.imgur.com/nGF1K8f.jpg"
     button_type: vertical
-    custom:
-      location:
-        longitude: -7.0844429
-        latitude: 110.3848063
 
   utter_oceanparkbsdcityimage:
   - text: "Ini Response Ketika Ocean Park Gambar"
