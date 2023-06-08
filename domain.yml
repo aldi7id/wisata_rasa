@@ -34,13 +34,14 @@ responses:
   - text: "Selamat Datang"
 
   utter_oZRN-fHnR:
-  - image: "https://i.imgur.com/nGF1K8f.jpg"
-    text: "Ini Text Caption"
-  
+  - text: "Judul Wisata 1"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+    
   utter_listwisata1:
-  - image: "https://i.imgur.com/nGF1K8f.jpg"
-    custom:
-      caption: "Ini Caption"
+  - text: "Deskripsi Wisata 1"
+    buttons:
+    - payload: Ocean Park BSD City
+      title: Ocean Park BSD City
 
   utter_oceanparkbsdcitydesc:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
