@@ -15,6 +15,8 @@ actions:
   - utter_tamankotabsd1
   - utter_tamankotabsd1image
   - utter_listwisata1
+  - utter_listwisata2head
+  - utter_listwisata2desc
 
 intents:
   - greet
@@ -37,12 +39,22 @@ responses:
   - text: "Judul Wisata 1"
     image: "https://i.imgur.com/nGF1K8f.jpg"
     
-  utter_listwisata1:
+  utter_listwisata1desc:
   - text: "Deskripsi Wisata 1"
     buttons:
     - payload: Ocean Park BSD City
       title: Ocean Park BSD City
-
+      
+  utter_listwisata2head:
+  - text: "Judul Wisata 2"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+    
+  utter_listwisata2desc:
+  - text: "Deskripsi Wisata 2"
+    buttons:
+    - payload:  Scientia Square Park
+      title:  Scientia Square Park
+      
   utter_oceanparkbsdcitydesc:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
     text: "Ini Text"
