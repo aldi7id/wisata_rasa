@@ -50,10 +50,31 @@ responses:
     image: "https://i.imgur.com/nGF1K8f.jpg"
     
   utter_listwisata2desc:
-  - text: "Deskripsi Wisata 2"
+  - text: >-
+        Taman rekreasi ini menawarkan berbagai atraksi dan wahana air, seperti
+        kolam renang, perosotan air, dan arung jeram. Cocok untuk dikunjungi
+        bersama keluarga atau teman-teman.
+        
+        Lokasi:CBD Area, Jl. Pahlawan Seribu, Lengkong Gudang, Kec. Serpong,
+        Kota Tangerang Selatan, Banten 15310  
+
+        Maps:https://goo.gl/maps/ZSLPhJo7vc4K7ibZ9
+
+
+        Jam Operasional: Setiap Hari  
+
+        11.00 - 16.00 WIB.
+
+
+        Tiket Masuk: Rp65.000-Rp100.000
+
+
+        Fasilitas: Wahana: Kolam Ombak, Flying Tower, Splash Town, Slide n Fun,
+        Flying Fox  
     buttons:
     - payload:  Scientia Square Park
       title:  Scientia Square Park
+      
       
   utter_oceanparkbsdcitydesc:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
