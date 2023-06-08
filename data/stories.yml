@@ -34,6 +34,9 @@ stories:
   - intent: tanyawisata
     user: Wisata
   - action: utter_oZRN-fHnR
+  - action: utter_listwisata1
+  - action: utter_listwisata2head
+  - action: utter_listwisata2desc
 
 
 - story: happy path
