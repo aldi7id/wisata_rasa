@@ -36,7 +36,7 @@ responses:
   utter_oZRN-fHnR:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
     custom:
-    caption: "Ini Caption"
+      caption: "Ini Caption"
   
   utter_listwisata1:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
