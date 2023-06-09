@@ -36,42 +36,77 @@ responses:
   utter_listwisata1desc:
   - text: >-
         1. Ocean Park BSD City
+        
         Taman rekreasi ini menawarkan berbagai atraksi dan wahana air, seperti
         kolam renang, perosotan air, dan arung jeram. Cocok untuk dikunjungi
         bersama keluarga atau teman-teman.
+        
         2. Scientia Square Park
+        
         Taman ini merupakan tempat rekreasi keluarga yang luas dengan berbagai fasilitas, termasuk area bermain anak-anak, jogging track, dan taman bermain air.
+        
         3. Taman Kota 1 BSD
+        
         Taman Kota 1 di BSD adalah salah satu fasilitas publik yang tersedia di Tangerang Selatan. 
+        
         4. Taman Kota 2 BSD
+        
         Taman Kota 2 BSD adalah salah satu taman yang populer di Tangsel. 
+        
         5. Taman Menteng Bintaro
+        
         Taman Menteng Bintaro adalah area taman yang terletak di daerah Bintaro, Tangerang Selatan.
+        
         6. Wisata Tandon Ciater Tangerang
+        
         Tandon Ciater Tangerang merupakan destinasi wisata yang menarik di Tangerang, Jawa Barat. Tempat ini terkenal dengan keberadaan tandon air yang menarik perhatian pengunjung.  
+        
         7. Broadway Alam Sutera
+        
         Broadway Alam Sutera adalah kompleks hiburan dan tempat belanja di Alam Sutera, Tangerang Selatan, yang menawarkan berbagai atraksi dan fasilitas yang terinspirasi oleh Broadway dan nuansa kota New York.
+        
         8. Ricastro Water Zone Ciater
+        
         Ricastro Waterzone Ciater adalah kompleks kolam renang yang menawarkan berbagai wahana permainan air. 
+        
         9. Trans Snow World Bintaro
+        
         Trans Snow World Bintaro adalah sebuah destinasi wisata di Bintaro, Tangerang Selatan, yang menawarkan pengalaman bermain di dalam salju buatan. 
+        
         10. Taman Wisata Pulau Situ Gintung
+        
         Tempat ini menawarkan pemandangan danau yang indah, pepohonan hijau, dan udara segar. Di dalam taman, terdapat berbagai fasilitas seperti area bermain anak, tempat piknik, jalur jogging, dan area rekreasi air.
+        
         11. BX RINK Ice Skating Bintaro
+        
         BX RINK Ice Skating Bintaro adalah arena seluncur es yang terletak di Bintaro, Tangerang Selatan.
+        
         12. Kampung Wisata Pinggir Rawa
+        
         Tempat ini menawarkan pengalaman unik dengan suasana alam rawa dan kehidupan sehari-hari masyarakat lokal. 
+        
         13. Taman Edukasi Ganespa
+        
         Taman Edukasi Ganespa di Pamulang merupakan destinasi terkenal untuk petualangan air dan juga menawarkan fasilitas untuk bersantai dan liburan keluarga. 
+        
         14. Branchsto BSD
+        
         Branchsto BSD adalah sebuah restoran yang terletak di kawasan BSD, Tangerang Selatan.
+       
         15. Kebun Latte
+        
         Kebun Latte adalah tempat wisata yang menggabungkan konsep kebun dengan kafe di Tangerang Selatan. 
+        
         16. Kampung Konservasi RIMBUN
+        
         Kampung Konservasi RIMBUN merupakan kampung tematik di Tangerang Selatan yang didedikasikan untuk mempromosikan kesadaran dan perlindungan lingkungan.
+        
         17. Jaletreng Riverpark
+        
         Jaletreng Riverpark merupakan tempat yang menarik dengan desain taman yang indah di sekitar Sungai Jaletreng.
+        
         18. Taman Hutan Kota Jombang
+        
         Pembangunan prasarana dan bantaran kali mati jombang yang menjadi destinasi wisata baru berlokasi di Kelurahan Jombang, Ciputat, yang digarap DPU Kota Tangsel ini dimulai pada awal 2019 lalu.
 
     buttons:
@@ -111,7 +146,7 @@ responses:
       title: Jaletreng Riverpark
     - payload: Taman Hutan Kota Jombang
       title: Taman Hutan Kota Jombang
-    button_type: vertical
+    button_type: reply
   
   utter_oceanparkbsdcitydesc:
   - image: "https://i.imgur.com/nGF1K8f.jpg"
