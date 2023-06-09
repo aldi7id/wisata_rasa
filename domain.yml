@@ -9,7 +9,10 @@ actions:
   - utter_hi
   - utter_listwisata1head
   - utter_oceanparkbsdcitydesc
-  - utter_oceanparkbsdcityimage
+  - utter_oceanparkbsdcityimagelist
+  - utter_oceanparkbsdcityimage1
+  - utter_oceanparkbsdcityimage2
+  - utter_oceanparkbsdcityimage3
   - utter_scientiasqurepark
   - utter_scientiasqureparkimage
   - utter_tamankotabsd1
@@ -234,15 +237,15 @@ responses:
         
         Rating Media: 4.5 / 5.0
     
-  utter_oceanparkbsdcityimage:
+  utter_oceanparkbsdcityimagelist:
   - text: "Berikut beberapa gambar menarik:"
-    buttons:
-      - title: Gambar 1
-        payload: "https://img001.prntscr.com/file/img001/Ftv31YC0QhaEP7Nv9dzpLg.png"
-      - title: Gambar 2
-        payload: "https://tangerangnews.com/assets/uploaded/photo/2021/03/03/e2a5307e9a861c01d7022a85b329b4ff.jpg?rand=43"
-
-
+  utter_oceanparkbsdcityimage1:
+  - image: "https://img001.prntscr.com/file/img001/Ftv31YC0QhaEP7Nv9dzpLg.png"
+  utter_oceanparkbsdcityimage2:
+  - image: "https://tangerangnews.com/assets/uploaded/photo/2021/03/03/e2a5307e9a861c01d7022a85b329b4ff.jpg?rand=43"
+  utter_oceanparkbsdcityimage3:
+  - image:  "https://tangerangnews.com/assets/uploaded/photo/2022/11/02/c4a19d0fcadc2700a7958c95847e2c09.jpg"
+   
   utter_scientiasqurepark:
   - text: "Ini Response Ketika Scientia"
 
