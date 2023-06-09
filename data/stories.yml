@@ -33,7 +33,7 @@ stories:
   steps:
   - intent: tanyawisata
     user: Wisata
-  - action: utter_oZRN-fHnR
+  - action: utter_listwisata1head
   - action: utter_listwisata1desc
   - action: utter_listwisata2head
   - action: utter_listwisata2desc
