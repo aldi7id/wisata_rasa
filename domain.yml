@@ -114,104 +114,128 @@ responses:
       title: Ocean Park BSD City
       subtitle: "Taman rekreasi ini menawarkan berbagai atraksi dan wahana air, seperti kolam renang, perosotan air, dan arung jeram. Cocok untuk dikunjungi bersama keluarga atau teman-teman."
       image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
+      location: "https://goo.gl/maps/ZSLPhJo7vc4K7ibZ9"
     - payload: Scientia Square Park
       title: Scientia Square Park
       subtitle: Taman ini merupakan tempat rekreasi keluarga yang luas dengan berbagai fasilitas, termasuk area bermain anak-anak, jogging track, dan taman bermain air.
       image: "https://asset.kompas.com/crops/a9Y4pPDNpspnOuoyUZmKvczDUqk=/0x7:587x398/780x390/data/photo/2022/01/13/61dffbff4ea87.png"
+      location: "https://goo.gl/maps/4ukSzDP3g6q3FUUH6"
     - payload: Taman Kota 1 BSD
       title: Taman Kota 1 BSD  
       subtitle: Taman Kota 1 di BSD adalah salah satu fasilitas publik yang tersedia di Tangerang Selatan.
       image: "https://ticmpu.id/wp-content/uploads/job-manager-uploads/company_logo/2021/03/Taman-Kota-1-BSD.jpg"
+      location: "https://goo.gl/maps/s1fdJdYkkhviVJtU9"
     - payload: Taman Kota 2 BSD
       title: Taman Kota 2 BSD  
       subtitle: "Taman Kota 2 BSD adalah salah satu taman yang populer di Tangsel."
       image: "https://abouttng.com/wp-content/uploads/2014/12/taman-kota-2-bsd.jpg"
+      location: "https://goo.gl/maps/J8YTKYLbx2xZ2T5A6"
     - payload: Taman Menteng Bintaro
       title: Taman Menteng Bintaro
       subtitle: "Taman Menteng Bintaro adalah area taman yang terletak di daerah Bintaro, Tangerang Selatan."
       image: "https://www.bintarojaya.id/images/news/Menteng%20Park%20Bintaro.jpg"
+      location: "https://goo.gl/maps/SxmmhyptXdiXikRv6"
     - payload: Wisata Tandon Ciater Tangerang
       title: Wisata Tandon Ciater Tangerang  
       subtitle: "Tandon Ciater Tangerang merupakan destinasi wisata yang menarik di Tangerang, Jawa Barat. Tempat ini terkenal dengan keberadaan tandon air yang menarik perhatian pengunjung."
       image: "https://bangdzul.com/wp-content/uploads/2017/02/tandon-ciater-bsd.jpg"
+      location: "https://goo.gl/maps/rSCyK7Javn3Vb8f48"
     - payload: Broadway Alam Sutera
       title: Broadway Alam Sutera  
       subtitle: "Broadway Alam Sutera adalah kompleks hiburan dan tempat belanja di Alam Sutera, Tangerang Selatan, yang menawarkan berbagai atraksi dan fasilitas yang terinspirasi oleh Broadway dan nuansa kota New York."
       image: "https://tangerangnews.com/assets/uploaded/photo/2022/11/02/c4a19d0fcadc2700a7958c95847e2c09.jpg"
+      location: "https://goo.gl/maps/UqCmDFPvTbtDZyvh6"
     - payload: Ricastro Water Zone Ciater
       title: Ricastro Water Zone Ciater 
       subtitle: "Ricastro Waterzone Ciater adalah kompleks kolam renang yang menawarkan berbagai wahana permainan air."
       image: "https://img001.prntscr.com/file/img001/MKH8l0c5S3K15PyoDovsDg.jpg"
+      location: "https://goo.gl/maps/H793vsX66Wk9C34u8"
     - payload: Trans Snow World Bintaro
       title: Trans Snow World Bintaro
       subtitle: "Trans Snow World Bintaro adalah sebuah destinasi wisata di Bintaro, Tangerang Selatan, yang menawarkan pengalaman bermain di dalam salju buatan."
       image: "https://akcdn.detik.net.id/community/media/transentertainment/0708202106164560e6984d36749_08072021611.jpg?q=90&w=1000"
+      location: "https://goo.gl/maps/nhQGvH55Jft7SmiNA"
     - payload: Taman Wisata Pulau Situ Gintung
       title: Taman Wisata Pulau Situ Gintung
       subtitle: "Tempat ini menawarkan pemandangan danau yang indah, pepohonan hijau, dan udara segar. Di dalam taman, terdapat berbagai fasilitas seperti area bermain anak, tempat piknik, jalur jogging, dan area rekreasi air."
       image: "https://s3.ap-southeast-1.amazonaws.com/cdn.orbit/wp-content/uploads/2021/12/28103400/covgintung.jpeg"
+      location: "https://goo.gl/maps/e2UvV4YeCfTkyFyRA"
     - payload: BX RINK Ice Skating Bintaro
       title: BX RINK Ice Skating Bintaro
       subtitle: "BX RINK Ice Skating Bintaro adalah arena seluncur es yang terletak di Bintaro, Tangerang Selatan."
       image: "https://bxrink.com/wp-content/uploads/2020/11/OpenGraph-BX-Rink.png"
+      location: "https://goo.gl/maps/BcmFkWBgwMm6MGR58"
     - payload: Kampung Wisata Pinggir Rawa
       title: Kampung Wisata Pinggir Rawa
       subtitle: "Tempat ini menawarkan pengalaman unik dengan suasana alam rawa dan kehidupan sehari-hari masyarakat lokal."
       image: "https://wisatatangerang.id/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-26-at-10.47.29.jpeg"
+      location: "https://goo.gl/maps/18rvgU8TvH49hpjD7"
     - payload: Taman Edukasi Ganespa
       title: Taman Edukasi Ganespa
       subtitle: "Taman Edukasi Ganespa di Pamulang merupakan destinasi terkenal untuk petualangan air dan juga menawarkan fasilitas untuk bersantai dan liburan keluarga."
       image: "https://i1.wp.com/abouttng.com/wp-content/uploads/2022/02/abouttng_1644062296928_4.jpg?resize=500%2C333"
+      location: "https://goo.gl/maps/HXfedDqUvubS5BjW6"
     - payload: Branchsto BSD
       title: Branchsto BSD
       subtitle: "Branchsto BSD adalah sebuah restoran yang terletak di kawasan BSD, Tangerang Selatan."
       image: "https://i.ytimg.com/vi/ZbAg-eizQww/maxresdefault.jpg"
+      location: "https://goo.gl/maps/RSnEqq8ES1FhVCxC8"
     - payload: Kebun Latte
       title: Kebun Latte
       subtitle: "Kebun Latte adalah tempat wisata yang menggabungkan konsep kebun dengan kafe di Tangerang Selatan."
       image: "https://tangerangdaily.id/wp-content/uploads/2021/11/kebun-latte-min.jpg"
+      location: "https://goo.gl/maps/tBU2pvkCRPFkL5wu8"
     - payload: Kampung Konservasi RIMBUN
       title: Kampung Konservasi RIMBUN
+      location: "https://goo.gl/maps/3fCutc4GycTNZaW27"
       subtitle: "https://tangerangnews.com/assets/uploaded/photo/2021/03/03/e2a5307e9a861c01d7022a85b329b4ff.jpg?rand=43"
       image: "Kampung Konservasi RIMBUN merupakan kampung tematik di Tangerang Selatan yang didedikasikan untuk mempromosikan kesadaran dan perlindungan lingkungan."
     - payload: Jaletreng Riverpark
       title: Jaletreng Riverpark
       subtitle: "Jaletreng Riverpark merupakan tempat yang menarik dengan desain taman yang indah di sekitar Sungai Jaletreng."
       image: "https://img001.prntscr.com/file/img001/Ftv31YC0QhaEP7Nv9dzpLg.png"
+      location: "https://goo.gl/maps/4Y3oimSozEsY5W3K8"
     - payload: Taman Hutan Kota Jombang
       title: Taman Hutan Kota Jombang
+      location: "https://goo.gl/maps/BWxPMnQE21G44e4x5"
       subtitle: "Pembangunan prasarana dan bantaran kali mati jombang yang menjadi destinasi wisata baru berlokasi di Kelurahan Jombang, Ciputat, yang digarap DPU Kota Tangsel ini dimulai pada awal 2019 lalu."
       image: "https://static.republika.co.id/uploads/images/inpicture_slide/pemerintah-kota-tangerang-selatan-tangsel-melalui-dinas-pekerjaan-umum-_200126143454-488.png"
     button_type: reply
   
   utter_oceanparkbsdcitydesc:
-  - image: "https://i.imgur.com/nGF1K8f.jpg"
-    text: "Ini Text"
-    buttons:
-    - payload: Ocean Park BSD City
-      title: Ocean Park BSD City
-      subtitle: Scientia Square Park Subtitle
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: Scientia Square Park
-      title: Ocean Park BSD City
-      subtitle: Scientia Square Park Subtitle
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: Taman Kota BSD 1
-      title: Taman Kota BSD 1
-      subtitle: Scientia Square Park Subtitle
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    - payload: /oceanparkbsdcity
-      title: Ocean Park BSD City
-      subtitle: Scientia Square Park Subtitle
-      photo: "https://i.imgur.com/nGF1K8f.jpg"
-      location: "https://i.imgur.com/nGF1K8f.jpg"
-    button_type: vertical
-
+  - text: >-
+        Ocean Park BSD City
+        
+        Taman rekreasi ini menawarkan berbagai atraksi dan wahana air, seperti
+        kolam renang, perosotan air, dan arung jeram. Cocok untuk dikunjungi
+        bersama keluarga atau teman-teman.
+        
+        Cocok untuk dikunjungi bersama keluarga atau teman-teman.
+        
+        Lokasi: CBD Area, Jl. Pahlawan Seribu, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15310
+        
+        Maps: https://goo.gl/maps/ZSLPhJo7vc4K7ibZ9
+        
+        Jam Operasional: Setiap Hari
+        
+        11.00 - 16.00 WIB.
+        
+        Tiket Masuk: Rp65.000-Rp100.000
+        
+        Wahana: Kolam Ombak, Flying Tower, Splash Town, Slide n Fun, Flying Fox
+        
+        Fasilitas: Tempat Bilas & Ganti, Tempat Parkir, Ban Berenang, Toilet, Mushola, Wifi Gratis, Food Court
+        
+        Kontak: 021-537-0009
+        
+        Sosial Media: 
+        https://www.instagram.com/oceanparkbsd/
+        https://oceanpark.co.id/
+        
+        Rating Media: 4.5 / 5.0
+        
   utter_oceanparkbsdcityimage:
-  - text: "Ini Response Ketika Ocean Park Gambar"
+  - image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
 
   utter_scientiasqurepark:
   - text: "Ini Response Ketika Scientia"
