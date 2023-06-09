@@ -7,7 +7,7 @@ actions:
   - utter_bye
   - utter_get_started
   - utter_hi
-  - utter_oZRN-fHnR
+  - utter_listwisata1head
   - utter_oceanparkbsdcitydesc
   - utter_oceanparkbsdcityimage
   - utter_scientiasqurepark
@@ -68,7 +68,7 @@ responses:
   utter_get_started:
   - text: "Selamat Datang"
 
-  utter_oZRN-fHnR:
+  utter_listwisata1head:
   - text: "Ocean Park BSD City"
     image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
     
