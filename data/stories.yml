@@ -34,9 +34,42 @@ stories:
   - intent: tanyawisata
     user: Wisata
   - action: utter_oZRN-fHnR
-  - action: utter_listwisata1
+  - action: utter_listwisata1desc
   - action: utter_listwisata2head
   - action: utter_listwisata2desc
+  - action: utter_listwisata3head
+  - action: utter_listwisata3desc
+  - action: utter_listwisata4head
+  - action: utter_listwisata4desc
+  - action: utter_listwisata5head
+  - action: utter_listwisata5desc
+  - action: utter_listwisata6head
+  - action: utter_listwisata6desc
+  - action: utter_listwisata7head
+  - action: utter_listwisata7desc
+  - action: utter_listwisata8head
+  - action: utter_listwisata8desc
+  - action: utter_listwisata9head
+  - action: utter_listwisata9desc
+  - action: utter_listwisata10head
+  - action: utter_listwisata10desc
+  - action: utter_listwisata11head
+  - action: utter_listwisata11desc
+  - action: utter_listwisata12head
+  - action: utter_listwisata12desc
+  - action: utter_listwisata13head
+  - action: utter_listwisata13desc
+  - action: utter_listwisata14head
+  - action: utter_listwisata14desc
+  - action: utter_listwisata15head
+  - action: utter_listwisata15desc
+  - action: utter_listwisata16head
+  - action: utter_listwisata16desc
+  - action: utter_listwisata17head
+  - action: utter_listwisata17desc
+  - action: utter_listwisata18head
+  - action: utter_listwisata18desc
+  
 
 
 - story: happy path
