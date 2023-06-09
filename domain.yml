@@ -237,8 +237,6 @@ responses:
   utter_oceanparkbsdcityimage:
   - text: "BSD City Gambar"
     image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
-    image: "https://static.republika.co.id/uploads/images/inpicture_slide/pemerintah-kota-tangerang-selatan-tangsel-melalui-dinas-pekerjaan-umum-_200126143454-488.png"
-    image: "https://tangerangdaily.id/wp-content/uploads/2021/11/kebun-latte-min.jpg"
 
   utter_scientiasqurepark:
   - text: "Ini Response Ketika Scientia"
