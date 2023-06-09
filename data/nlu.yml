@@ -29,6 +29,56 @@ nlu:
   examples:
   - text: |
       Taman Kota 1 BSD
+      tamkot 1
+    metadata:
+      canonical: true
+- intent: tamankota2bsd
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Taman Kota 2 BSD
+      tamkot 2
+    metadata:
+      canonical: true
+- intent: tamanmenteng
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Taman Menteng Bintaro
+    metadata:
+      canonical: true
+- intent: tandonciater
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Tandong Ciater Tangerang Selatan
+    metadata:
+      canonical: true
+- intent: broadwayalamsutera
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Broadway Alam Sutera
+    metadata:
+      canonical: true
+- intent: ricastrowaterzone
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Ricastro Water Zone
+    metadata:
+      canonical: true
+- intent: transswb
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Trans Snow World Bintaro
     metadata:
       canonical: true
 - intent: tanyawisata
@@ -37,6 +87,7 @@ nlu:
   examples:
   - text: |
       Wisata
+      Hiburan
 - intent: greet
   examples: |
     - hey
