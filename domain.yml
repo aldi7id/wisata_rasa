@@ -42,10 +42,11 @@ actions:
   - utter_tamanmentengimage1
   - utter_tamanmentengimage2
   - utter_tamanmentengimage3
-  - utter_tamankotabsd2image3
+  - utter_tamankotabsd2
   - utter_tamankotabsd2image1
   - utter_tamankotabsd2image2
   - utter_tamankotabsd2image3
+  
 intents:
   - greet
   - goodbye
@@ -63,6 +64,7 @@ intents:
   - broadwayalamsutera
   - ricastrowaterzone
   - transswb
+  
 responses:
   utter_get_started:
     - text: Selamat Datang
