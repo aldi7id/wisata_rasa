@@ -235,7 +235,7 @@ responses:
         Rating Media: 4.5 / 5.0
         
   utter_oceanparkbsdcityimage:
-  - image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
+  - text: "BSD City Image"
 
   utter_scientiasqurepark:
   - text: "Ini Response Ketika Scientia"
