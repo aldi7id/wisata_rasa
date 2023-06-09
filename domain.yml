@@ -236,7 +236,10 @@ responses:
         
   utter_oceanparkbsdcityimage:
   - text: "BSD City Gambar"
-    image: "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
+    image: 
+    - "https://img001.prntscr.com/file/img001/0oTxuiL2SOOvYWVMP4wF-g.jpg"
+    - "https://bxrink.com/wp-content/uploads/2020/11/OpenGraph-BX-Rink.png"
+    - "https://wisatatangerang.id/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-26-at-10.47.29.jpeg"
 
   utter_scientiasqurepark:
   - text: "Ini Response Ketika Scientia"
