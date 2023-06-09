@@ -241,7 +241,7 @@ responses:
   - text: "Berikut beberapa gambar menarik:"
   
   utter_oceanparkbsdcityimage1:
-  - text: "Gambar 1"
+  - text: ""
     image: "https://img001.prntscr.com/file/img001/Ftv31YC0QhaEP7Nv9dzpLg.png"
   
   utter_oceanparkbsdcityimage2:
