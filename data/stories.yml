@@ -46,7 +46,7 @@ rules:
 
 - rule: Taman Mentang Bintaro
   steps:
-  - intent: utter_tamanmenteng
+  - intent: tamanmenteng
     user: Taman Mentang Bintaro
   - action: utter_tamanmenteng
   - action: utter_tamanmentengimage1
@@ -55,7 +55,7 @@ rules:
 
 - rule: Tandon Ciater Tangerang Selatan
   steps:
-  - intent: utter_tandonciater
+  - intent: tandonciater
     user: Tandon Ciater Tangerang Selatan
   - action: utter_tandonciater
   - action: utter_tandonciaterimage1
@@ -64,7 +64,7 @@ rules:
 
 - rule: Broadway Alam Sutera
   steps:
-  - intent: utter_broadwayalamsutera
+  - intent: broadwayalamsutera
     user: Tandon Ciater Tangerang Selatan
   - action: utter_broadwayalamsutera
   - action: utter_broadwayalamsuteraimage1
@@ -73,7 +73,7 @@ rules:
 
 - rule: Ricastro Water Zone
   steps:
-  - intent: utter_ricastrowaterzone
+  - intent: ricastrowaterzone
     user: Ricastro Water Zone
   - action: utter_broadwayalamsutera
   - action: utter_ricastrowaterzoneimage1
@@ -82,7 +82,7 @@ rules:
 
 - rule: Trans Snow World Bintaro
   steps:
-  - intent: utter_transswb
+  - intent: transswb
     user: Ricastro Water Zone
   - action: utter_transswb
   - action: utter_transswbimage1
