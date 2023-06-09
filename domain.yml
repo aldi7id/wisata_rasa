@@ -188,8 +188,8 @@ responses:
     - payload: Kampung Konservasi RIMBUN
       title: Kampung Konservasi RIMBUN
       location: "https://goo.gl/maps/3fCutc4GycTNZaW27"
-      subtitle: "https://tangerangnews.com/assets/uploaded/photo/2021/03/03/e2a5307e9a861c01d7022a85b329b4ff.jpg?rand=43"
-      image: "Kampung Konservasi RIMBUN merupakan kampung tematik di Tangerang Selatan yang didedikasikan untuk mempromosikan kesadaran dan perlindungan lingkungan."
+      subtitle: "Kampung Konservasi RIMBUN merupakan kampung tematik di Tangerang Selatan yang didedikasikan untuk mempromosikan kesadaran dan perlindungan lingkungan."
+      image: "https://tangerangnews.com/assets/uploaded/photo/2021/03/03/e2a5307e9a861c01d7022a85b329b4ff.jpg?rand=43"
     - payload: Jaletreng Riverpark
       title: Jaletreng Riverpark
       subtitle: "Jaletreng Riverpark merupakan tempat yang menarik dengan desain taman yang indah di sekitar Sungai Jaletreng."
