@@ -12,7 +12,11 @@ rules:
   - intent: oceanparkbsdcity
     user: Ocean Park BSD City
   - action: utter_oceanparkbsdcitydesc
-  - action: utter_oceanparkbsdcityimage
+  - action: utter_oceanparkbsdcityimagelist
+  - action: utter_oceanparkbsdcityimage1
+  - action: utter_oceanparkbsdcityimage2
+  - action: utter_oceanparkbsdcityimage3
+  
 
 - rule: Scientia Square Park
   steps:
