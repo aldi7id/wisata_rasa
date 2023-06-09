@@ -17,6 +17,39 @@ actions:
   - utter_listwisata1
   - utter_listwisata2head
   - utter_listwisata2desc
+  - utter_listwisata3head
+  - utter_listwisata3desc
+  - utter_listwisata4head
+  - utter_listwisata4desc
+  - utter_listwisata5head
+  - utter_listwisata5desc
+  - utter_listwisata6head
+  - utter_listwisata6desc
+  - utter_listwisata7head
+  - utter_listwisata7desc
+  - utter_listwisata8head
+  - utter_listwisata8desc
+  - utter_listwisata9head
+  - utter_listwisata9desc
+  - utter_listwisata10head
+  - utter_listwisata10desc
+  - utter_listwisata11head
+  - utter_listwisata11desc
+  - utter_listwisata12head
+  - utter_listwisata12desc
+  - utter_listwisata13head
+  - utter_listwisata13desc
+  - utter_listwisata14head
+  - utter_listwisata14desc
+  - utter_listwisata15head
+  - utter_listwisata15desc
+  - utter_listwisata16head
+  - utter_listwisata16desc
+  - utter_listwisata17head
+  - utter_listwisata17desc
+  - utter_listwisata18head
+  - utter_listwisata18desc
+  
 
 intents:
   - greet
