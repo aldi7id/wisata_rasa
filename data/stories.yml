@@ -12,7 +12,6 @@ rules:
   - intent: oceanparkbsdcity
     user: Ocean Park BSD City
   - action: utter_oceanparkbsdcitydesc
-  - action: utter_oceanparkbsdcityimagelist
   - action: utter_oceanparkbsdcityimage1
   - action: utter_oceanparkbsdcityimage2
   - action: utter_oceanparkbsdcityimage3
@@ -23,14 +22,73 @@ rules:
   - intent: scientiasquarepark
     user: Scientia Square Park
   - action: utter_scientiasqurepark
-  - action: utter_scientiasqureparkimage
+  - action: utter_scientiasqureparkimage1
+  - action: utter_scientiasqureparkimage2
+  - action: utter_scientiasqureparkimage3
 
 - rule: Taman Kota 1 BSD
   steps:
   - intent: tamankota1bsd
     user: Taman Kota 1 BSD
   - action: utter_tamankotabsd1
-  - action: utter_tamankotabsd1image
+  - action: utter_tamankotabsd1image1
+  - action: utter_tamankotabsd1image2
+  - action: utter_tamankotabsd1image3
+
+- rule: Taman Kota 2 BSD
+  steps:
+  - intent: tamankota2bsd
+    user: Taman Kota 2 BSD
+  - action: utter_tamankotabsd2
+  - action: utter_tamankotabsd2image1
+  - action: utter_tamankotabsd2image2
+  - action: utter_tamankotabsd2image3
+
+- rule: Taman Mentang Bintaro
+  steps:
+  - intent: utter_tamanmenteng
+    user: Taman Mentang Bintaro
+  - action: utter_tamanmenteng
+  - action: utter_tamanmentengimage1
+  - action: utter_tamanmentengimage2
+  - action: utter_tamanmentengimage3
+
+- rule: Tandon Ciater Tangerang Selatan
+  steps:
+  - intent: utter_tandonciater
+    user: Tandon Ciater Tangerang Selatan
+  - action: utter_tandonciater
+  - action: utter_tandonciaterimage1
+  - action: utter_tandonciaterimage2
+  - action: utter_tandonciaterimage3
+
+- rule: Broadway Alam Sutera
+  steps:
+  - intent: utter_broadwayalamsutera
+    user: Tandon Ciater Tangerang Selatan
+  - action: utter_broadwayalamsutera
+  - action: utter_broadwayalamsuteraimage1
+  - action: utter_broadwayalamsuteraimage1
+  - action: utter_broadwayalamsuteraimage1
+
+- rule: Ricastro Water Zone
+  steps:
+  - intent: utter_ricastrowaterzone
+    user: Ricastro Water Zone
+  - action: utter_broadwayalamsutera
+  - action: utter_ricastrowaterzoneimage1
+  - action: utter_ricastrowaterzoneimage2
+  - action: utter_ricastrowaterzoneimage3
+
+- rule: Trans Snow World Bintaro
+  steps:
+  - intent: utter_transswb
+    user: Ricastro Water Zone
+  - action: utter_transswb
+  - action: utter_transswbimage1
+  - action: utter_transswbimage2
+  - action: utter_transswbimage3
+
 
 stories:
 - story: minta list wisata
