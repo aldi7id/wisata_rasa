@@ -68,8 +68,8 @@ rules:
     user: Tandon Ciater Tangerang Selatan
   - action: utter_broadwayalamsutera
   - action: utter_broadwayalamsuteraimage1
-  - action: utter_broadwayalamsuteraimage1
-  - action: utter_broadwayalamsuteraimage1
+  - action: utter_broadwayalamsuteraimage2
+  - action: utter_broadwayalamsuteraimage3
 
 - rule: Ricastro Water Zone
   steps:
