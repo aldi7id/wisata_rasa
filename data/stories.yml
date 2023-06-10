@@ -139,7 +139,7 @@ rules:
 
 - rule: Kampung Konservasi RIMBUN
   steps:
-  - intent: kampungwisatapr
+  - intent: kampungkonversirimbun
     user: Kampung Konservasi RIMBUN
   - action: utter_kampungkonversirimbun
   - action: utter_kampungkonversirimbunimage1
