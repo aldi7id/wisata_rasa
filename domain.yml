@@ -76,6 +76,10 @@ actions:
   - utter_tamanwisatapsgimage1
   - utter_tamanwisatapsgimage2
   - utter_tamanwisatapsgimage3
+  - utter_jaletrengriverpark
+  - utter_jaletrengriverparkimage1
+  - utter_jaletrengriverparkimage2
+  - utter_jaletrengriverparkimage3
   
 intents:
   - greet
@@ -102,6 +106,7 @@ intents:
   - tamanedukasiganespa
   - bxrinkiceskating
   - tamanwisatapsg
+  - kampungkonversirimbun
   
 responses:
   utter_get_started:
