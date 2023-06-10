@@ -30,13 +30,6 @@ nlu:
   - text: |
       Taman Kota 1 BSD
       tamkot 1
-    metadata:
-      canonical: true
-- intent: tamankota2bsd
-  metadata:
-    language: id
-  examples:
-  - text: |
       Taman Kota 2 BSD
       tamkot 2
     metadata:
@@ -81,6 +74,80 @@ nlu:
       Trans Snow World Bintaro
     metadata:
       canonical: true
+- intent: tamanwisatapsg
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Taman Wisata Pulau Situ Gitung
+      Taman Wisata PSG
+    metadata:
+      canonical: true
+- intent: bxrinkiceskating
+  metadata:
+    language: id
+  examples:
+  - text: |
+      BX RINK Ice Skating Bintaro
+    metadata:
+      canonical: true
+- intent: kampungwisatapr
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Kampung Wisata Pinggir Rawa
+      Kampung Wisata PR
+    metadata:
+      canonical: true
+- intent: tamanedukasiganespa
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Taman Edukasi Ganespa
+    metadata:
+      canonical: true
+- intent: brancstobsd
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Brancsto BSD
+    metadata:
+      canonical: true
+- intent: kebunlatte
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Kebun Latte
+    metadata:
+      canonical: true
+- intent: kampungkonversirimbun
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Kampung Konversi Rimbun
+    metadata:
+      canonical: true
+- intent: jaletrengriverpark
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Jaletreng River Park
+    metadata:
+      canonical: true
+- intent: tamanhutankotajombang
+  metadata:
+    language: id
+  examples:
+  - text: |
+      Taman Hutan Kota Jombang
+    metadata:
+      canonical: true
 - intent: tanyawisata
   metadata:
     language: id
@@ -88,6 +155,13 @@ nlu:
   - text: |
       Wisata
       Hiburan
+      Informasi Wisata Tangerang Selatan
+      Liburan
+      Tempat Liburan Tangerang Selatan
+      Tempat Healing Tangerang Selatan
+      Lokasi Liburan Tangerang Selatan
+      Lokasi Healing Tangerang Selatan
+      Tempat Hunting Foto di Tangerang Selatan
 - intent: greet
   examples: |
     - hey
