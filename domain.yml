@@ -42,10 +42,41 @@ actions:
   - utter_tamanmentengimage1
   - utter_tamanmentengimage2
   - utter_tamanmentengimage3
-  - utter_tamankotabsd2
   - utter_tamankotabsd2image1
   - utter_tamankotabsd2image2
   - utter_tamankotabsd2image3
+  - utter_tamanhutankotajombang
+  - utter_tamanhutankotajombangimage1
+  - utter_tamanhutankotajombangimage2
+  - utter_tamanhutankotajombangimage3
+  - utter_kampungkonversirimbun
+  - utter_kampungkonversirimbunimage1
+  - utter_kampungkonversirimbunimage2
+  - utter_kampungkonversirimbunimage3
+  - utter_kebunlatte
+  - utter_kebunlatteimage1
+  - utter_kebunlatteimage2
+  - utter_kebunlatteimage3
+  - utter_brancstobsd
+  - utter_brancstobsdimage1
+  - utter_brancstobsdimage2
+  - utter_brancstobsdimage3
+  - utter_tamanedukasiganespa
+  - utter_tamanedukasiganespaimage1
+  - utter_tamanedukasiganespaimage2
+  - utter_tamanedukasiganespaimage3
+  - utter_kampungwisatapr
+  - utter_kampungwisataprimage1
+  - utter_kampungwisataprimage2
+  - utter_kampungwisataprimage3
+  - utter_bxrinkiceskating
+  - utter_bxrinkiceskatingimage1
+  - utter_bxrinkiceskatingimage2
+  - utter_bxrinkiceskatingimage3
+  - utter_tamanwisatapsg
+  - utter_tamanwisatapsgimage1
+  - utter_tamanwisatapsgimage2
+  - utter_tamanwisatapsgimage3
   
 intents:
   - greet
@@ -64,6 +95,14 @@ intents:
   - broadwayalamsutera
   - ricastrowaterzone
   - transswb
+  - tamanhutankotajombang
+  - jaletrengriverpark
+  - kampungwisatapr
+  - kebunlatte
+  - brancstobsd
+  - tamanedukasiganespa
+  - bxrinkiceskating
+  - tamanwisatapsg
   
 responses:
   utter_get_started:
@@ -361,6 +400,7 @@ responses:
   utter_scientiasqureparkimage3:
     - text: ""
       image: http://images.malkelapagading.com/articles/Velocity-Skate-Park-28.jpg
+  
   utter_tamankotabsd1:
     - text: >-
         Taman Kota 1 di BSD adalah salah satu fasilitas publik yang tersedia di
@@ -368,21 +408,38 @@ responses:
         dikenakan biaya tiket. Seluruh fasilitas yang ada di dalamnya dapat
         digunakan secara gratis.
 
-        Lokasi: BSD City, Jl. Letnan Sutopo, Lengkong Gudang Tim., Kec. Serpong, Kota Tangerang Selatan, Banten 15310
+        Taman Kota 2 BSD adalah salah satu taman yang populer di Tangsel. Tempat
+        ini cocok untuk berolahraga, piknik, atau sekadar bersantai sambil
+        menikmati suasana hijau dan udara segar.
 
-        Maps:https://goo.gl/maps/s1fdJdYkkhviVJtU9
+        Lokasi Taman Kota 1 BSD: BSD City, Jl. Letnan Sutopo, Lengkong Gudang Tim., Kec. Serpong, Kota Tangerang Selatan, Banten 15310
 
-        Jam Operasional: Setiap Hari 09.00 - 17.00
+        Lokasi Taman Kota 2 BSD: Jl. Letnan Sutopo, Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15326
 
-        Tiket Masuk: Toilet,Mushola, Rumah Jaga, Jogging Track, Fitness Manual
+        Maps Taman Kota 1:https://goo.gl/maps/s1fdJdYkkhviVJtU9
+
+        Maps Taman Kota 2: https://goo.gl/maps/J8YTKYLbx2xZ2T5A6
+
+        Jam Operasional Taman Kota 1: Setiap Hari 09.00 - 17.00
+
+        Jam Operasional Taman Kota 2: Setiap Hari 06.00 - 18.00
+
+        Tiket Masuk: Gratis
+
+        Fasilitas Taman Kota 1: Toilet,Mushola, Rumah Jaga, Jogging Track, Fitness Manual
+
+        Fasilitas Taman Kota 2: Toilet umum,Kios,Penjaja makanan,Mushola,Area parkir,Pedestrian,Jogging track,Skatepark,Area bermain anak,Bangu taman,Pendopo,foodcourt 
 
         Kontak: -
 
         Sosial Media: -
 
+        https://www.instagram.com/tamankota2_bsd/
+
+
         Rating Pengguna: 4.4 / 5.0
   utter_tamankotabsd1image1:
-    - text: ""
+    - text: "Foto Taman Kota 1"
       image: https://ticmpu.id/wp-content/uploads/job-manager-uploads/gallery_images/2021/03/Daya-Tarik-Taman-Kota-BSD-700x370.jpg
   utter_tamankotabsd1image2:
     - text: ""
@@ -390,29 +447,8 @@ responses:
   utter_tamankotabsd1image3:
     - text: ""
       image: https://ticmpu.id/wp-content/uploads/job-manager-uploads/gallery_images/2021/03/taman-kota-1-bsd-1024x588-1-700x370.jpg
-  utter_tamankotabsd2:
-    - text: >-
-        Taman Kota 2 BSD adalah salah satu taman yang populer di Tangsel. Tempat
-        ini cocok untuk berolahraga, piknik, atau sekadar bersantai sambil
-        menikmati suasana hijau dan udara segar.
-
-        Lokasi: Jl. Letnan Sutopo, Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15326
-
-        Maps: https://goo.gl/maps/J8YTKYLbx2xZ2T5A6
-
-        Jam Opersional: Setiap Hari 06.00 - 18.00
-
-        Tiket: Gratis
-
-        Fasilias: Toilet umum,Kios,Penjaja makanan,Mushola,Area parkir,Pedestrian,Jogging track,Skatepark,Area bermain anak,Bangu taman,Pendopo,foodcourt 
-
-        Kontak: -
-
-        Sosial Media: https://www.instagram.com/tamankota2_bsd/
-
-        Rating Pengguna: 4.4/5.0
   utter_tamankotabsd2image1:
-    - text: ""
+    - text: "Foto Taman Kota 2"
       image: https://img001.prntscr.com/file/img001/GKqOodXhR-iX43eGcn5elA.jpg
   utter_tamankotabsd2image2:
     - text: ""
@@ -420,6 +456,7 @@ responses:
   utter_tamankotabsd2image3:
     - text: ""
       image: https://mytrip123.com/wp-content/uploads/2022/10/daya-tarik-taman-kota-2-bsd.jpg
+  
   utter_tamanmenteng:
     - text: >-
         Taman Menteng Bintaro adalah area taman yang terletak di daerah Bintaro,
@@ -437,6 +474,7 @@ responses:
         Fasilitas: area parkir, pedestrian dan jogging track, reflexology path, hingga bangku-bangku taman. Terdapat reservoir air dengan jembatan dan playground anak-anak.
 
         Rating Pengguna: 4.4/5.0
+  
   utter_tamanmentengimage1:
     - text: ""
       image: https://assets-a1.kompasiana.com/items/album/2018/09/13/taman-menteng-jpg-5b9a26cac112fe0fb64e4376.jpg
@@ -446,6 +484,7 @@ responses:
   utter_tamanmentengimage3:
     - text: ""
       image: https://getlost.id/wp-content/uploads/2021/06/@engageman.jpg
+  
   utter_tandonciater:
     - text: >-
         Tandon Ciater Tangerang merupakan destinasi wisata yang menarik di
@@ -470,6 +509,7 @@ responses:
         Sosial Media: -
 
         Rating Pengguna: 4.3 / 5.0
+  
   utter_tandonciaterimage1:
     - text: ""
       image: https://panduanwisata.b-cdn.net/wp-content/uploads/2021/10/Pemandangan-Tandon-Ciater-dari-atas.jpg
@@ -479,6 +519,7 @@ responses:
   utter_tandonciaterimage3:
     - text: ""
       image: https://t-2.tstatic.net/tangerang/foto/bank/images/Tandon-Ciater1.jpg
+  
   utter_broadwayalamsutera:
     - text: >-
         Broadway Alam Sutera adalah kompleks hiburan dan tempat belanja di Alam
@@ -505,6 +546,7 @@ responses:
         Sosial Media: https://www.instagram.com/flavorbliss/?hl=id
 
         Rating Pengguna: 4.6 / 5.0
+  
   utter_broadwayalamsuteraimage1:
     - text: ""
       image: https://asset.kompas.com/crops/AiPZtUYq3XmHn96nDudwyVSsvbs=/0x0:1000x667/750x500/data/photo/2022/09/15/632317cf6e77b.jpg
@@ -514,6 +556,7 @@ responses:
   utter_broadwayalamsuteraimage3:
     - text: ""
       image: https://cdn.idntimes.com/content-images/post/20210624/flavorbliss-1624525755126963-c8610f900d88774c04499cbe6f9c0b96.jpg
+  
   utter_ricastrowaterzone:
     - text: >-
         Ricastro Waterzone Ciater adalah kompleks kolam renang yang menawarkan
@@ -540,6 +583,7 @@ responses:
         Sosial Media: https://www.instagram.com/ricastro_waterzone/?hl=id
 
         Rating Pengguna: 4.5 / 5.0
+  
   utter_ricastrowaterzoneimage1:
     - text: ""
       image: https://renangloka.com/wp-content/uploads/2022/09/ricastro-water-zone-ciater.jpeg
@@ -549,6 +593,7 @@ responses:
   utter_ricastrowaterzoneimage3:
     - text: ""
       image: https://cdn-2.tstatic.net/wartakota/foto/bank/images/ricastro-waterzone1.jpg
+  
   utter_transswb:
     - text: >-
         Trans Snow World Bintaro adalah sebuah destinasi wisata di Bintaro,
@@ -595,6 +640,349 @@ responses:
   utter_transswbimage3:
     - text: ""
       image: https://akcdn.detik.net.id/community/media/visual/2019/12/21/d40645e0-3fa9-4073-bf24-06edacbb1c5f_43.jpeg?w=250&q=
+  
+  utter_tamanwisatapsg:
+    - text: >-
+        Taman Wisata Pulau Situ Gintung adalah destinasi wisata yang terletak di Tangerang Selatan, Banten. Tempat ini menawarkan pemandangan danau yang indah, pepohonan hijau, dan udara segar. Di dalam taman, terdapat berbagai fasilitas seperti area bermain anak, tempat piknik, jalur jogging, dan area rekreasi air. Pengunjung juga dapat menyewa perahu untuk menjelajahi danau. Taman ini juga memiliki restoran dan warung makan yang menyajikan berbagai hidangan. Taman Wisata Pulau Situ Gintung menjadi tempat yang ideal untuk bersantai, berlibur, atau berkumpul bersama keluarga dan teman-teman.
+        
+        Lokasi: Jl. Pisangan Raya No.20, Cireundeu, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15419
+
+        Google Maps: https://goo.gl/maps/e2UvV4YeCfTkyFyRA
+
+        Jam Operasional: Setiap Hari
+        08.00 - 18.00
+
+        Tiket: Rp50.000-Rp65.000
+
+        Fasilitas: Kolam Renang Dan Water Park Taman Wisata Situ Gintung,Outbound,Camping,Paintball,Mushola,Area Parkir,Toilet
+
+        Kontak: 
+
+        (021)7495341
+
+        6285171071650
+
+        Sosial Media:
+
+        https://heylink.me/tamanwisatapulausitugintung/
+        
+        https://www.facebook.com/pulau.gintung
+        
+        https://www.instagram.com/pulausitugintung/?hl=id
+
+        Rating Pengguna: 4.3 / 5.0
+
+  utter_tamanwisatapsgimage1:
+    - text: ""
+      image: https://awsimages.detik.net.id/community/media/visual/2019/11/08/f6642140-97a3-4f29-bcf7-704858270340_43.jpeg?w=1200
+  utter_tamanwisatapsgimage2:
+    - text: ""
+      image: https://i0.wp.com/penginapan.net/wp-content/uploads/Taman-Wisata-Situ-Gintung...jpg?fit=460%2C300&ssl=1
+  utter_tamanwisatapsgimage3:
+    - text: ""
+      image: https://media-cdn.tripadvisor.com/media/photo-s/0c/f9/b8/6f/photo0jpg.jpg
+  
+  utter_bxrinkiceskating:
+    - text: >-
+        BX RINK Ice Skating Bintaro adalah arena seluncur es yang terletak di Bintaro, Tangerang Selatan. Tempat ini menawarkan pengalaman seluncur es bagi pengunjung dari berbagai tingkat keahlian. Pengunjung dapat menikmati area seluncur es yang luas dengan peralatan seluncur yang aman. BX RINK Ice Skating Bintaro juga menyediakan kelas seluncur, acara, dan kompetisi yang menarik. Tempat ini menjadi destinasi yang cocok untuk menghabiskan waktu bersama keluarga atau teman-teman, serta meningkatkan keterampilan seluncur es.
+        
+        Lokasi: CBD, Bintaro Jaya Xchange Mall Lantai UG No.3A, Jl. Boulevard Bintaro Jaya Jl. Sektor VII No.2, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15227
+
+        Google Maps: https://goo.gl/maps/BcmFkWBgwMm6MGR58
+
+        Jam Operasional: Setiap Hari
+        11.00 - 19.30
+
+        Tiket: Rp105.000-Rp145.000
+
+        Fasilitas: Figura Skating,Penguin Skating Aid,Rental Sepatu / Alat, Loker,Ruang Tunggu,Snack Corner
+
+        Kontak: 
+
+        02129864888
+
+        Sosial Media:
+
+        https://bxrink.com/
+        
+        https://www.instagram.com/bxrink/?hl=id
+        
+        https://www.facebook.com/bxrink
+        
+        https://twitter.com/BXrink
+
+        Rating Pengguna: 4.6 / 5.0
+
+  utter_bxrinkiceskatingimage1:
+    - text: ""
+      image: https://bxrink.com/wp-content/uploads/2019/05/BX-Rink-Bintaro-Jaya-Xchange-Ice-Skating-Rink-11.jpg
+  utter_bxrinkiceskatingimage2:
+    - text: ""
+      image: https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1024,h_683/w_63,x_11,y_11,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fxkxxhq16bep1oxfvthp/BXIceRinkTicketinTangerangSelatan.jpg
+  utter_bxrinkiceskatingimage3:
+    - text: ""
+      image: https://hijaubintaro.id/wp-content/uploads/2021/06/BXR1-scaled.jpg
+
+  utter_kampungwisatapr:
+    - text: >-
+        Kampung Wisata Pinggir Rawa adalah destinasi wisata yang terletak di Tangerang Selatan. Tempat ini menawarkan pengalaman unik dengan suasana alam rawa dan kehidupan sehari-hari masyarakat lokal. Pengunjung dapat menikmati pertunjukan seni tradisional, belajar membuat kerajinan tangan, berkeliling menggunakan perahu di rawa, serta mencoba makanan khas daerah. Kampung Wisata Pinggir Rawa juga dilengkapi dengan fasilitas seperti area bermain anak, tempat makan, dan toko souvenir. Tempat ini cocok untuk bersantai, berlibur, atau mengenal budaya dan kehidupan lokal yang kaya di sekitar rawa.
+        
+        Lokasi: Jl. Moh. Jali Jl. Eretan, RT.001/RW.003, Kunciran Jaya, Kec. Pinang, Kota Tangerang, Banten 15144
+
+        Google Maps: https://goo.gl/maps/18rvgU8TvH49hpjD7
+
+        Jam Operasional: Setiap Hari
+        08.00 - 21.00
+        
+        Tiket: Rp5.000
+
+        Fasilitas: Spot Foto, Bebek Air,Perahu,Restoran,Toilet, Gazebo Tepi Danau, Mushola,Area Parkir
+
+        Kontak: 
+
+        -
+
+        Sosial Media:
+
+        https://www.instagram.com/kp.wisatapinggirrawa/
+
+        Rating Pengguna: 4.4 / 5.0
+
+  utter_kampungwisatapriamge1:
+    - text: ""
+      image: https://wisatatangerang.id/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-26-at-10.46.28-1024x575.jpeg
+  utter_kampungwisatapriamge2:
+    - text: ""
+      image: https://hypeabis.id/assets/photo/20211206002708000000IMG2021112916593701.jpeg
+  utter_kampungwisatapriamge3:
+    - text: ""
+      image: https://abouttng.com/wp-content/uploads/2020/03/IMG-20200130-WA0062-1-1024x768.jpg
+
+  utter_tamanedukasiganespa:
+    - text: >-
+        Taman Edukasi Ganespa di Pamulang merupakan destinasi terkenal untuk petualangan air dan juga menawarkan fasilitas untuk bersantai dan liburan keluarga. Taman ini menyajikan berbagai atraksi dan wahana petualangan air yang menarik, serta dilengkapi dengan area nongkrong yang nyaman. Dengan kombinasi ini, Taman Edukasi Ganespa di Pamulang menjadi tempat yang ideal untuk menghabiskan waktu bersama keluarga atau teman-teman dengan keseruan petualangan air dan relaksasi yang menyenangkan.
+        
+        Lokasi: Jl. Pamulang Permai Bar. 1, Pamulang Bar., Kec. Pamulang, Kota Tangerang Selatan, Banten 15417
+
+        Google Maps:https://goo.gl/maps/HXfedDqUvubS5BjW6
+
+        Jam Operasional: 
+
+        Senin - Jumat : 14.00 - 21.00
+
+        Sabtu - Minggu: 07.00 - 22.00
+        
+        Tiket: Gratis Tidak Boleh Membawa Makanan / Minuman dari Luar
+
+        Fasilitas: Wisata Kuliner,Wisata Air,Wisata Edukasi,Area Parkir,Live Music,Mushola,Toilet
+
+        Kontak: 
+
+        +62 813-1045-4255
+
+        Sosial Media:
+
+        https://www.instagram.com/tamanedukasiganespa/?hl=id
+
+        Rating Pengguna: 4.7 / 5.0
+
+  utter_tamanedukasiganespaimage1:
+    - text: ""
+      image: https://gallery-banten.poskota.co.id/storage/Foto/IMG-20210723-WA0030.jpg
+  utter_tamanedukasiganespaimage2:
+    - text: ""
+      image: https://i1.wp.com/abouttng.com/wp-content/uploads/2022/02/abouttng_1644062296331_1.jpg?resize=500%2C333
+  utter_tamanedukasiganespaimage3:
+    - text: ""
+      image: https://i1.wp.com/abouttng.com/wp-content/uploads/2022/02/abouttng_1644062296928_4.jpg?resize=500%2C333
+  
+  utter_brancstobsd:
+    - text: >-
+        Branchsto BSD adalah sebuah restoran yang terletak di kawasan BSD, Tangerang Selatan. Restoran ini dikenal dengan konsepnya yang unik dan menyajikan beragam hidangan yang lezat. Makanan yang disajikan di Branchsto BSD biasanya bervariasi, mulai dari hidangan lokal hingga hidangan internasional. Restoran ini juga memiliki suasana yang nyaman dan interior yang menarik, menciptakan pengalaman makan yang menyenangkan bagi para pengunjungnya. Branchsto BSD merupakan pilihan yang tepat bagi mereka yang mencari tempat makan yang menawarkan variasi menu dan suasana yang menyenangkan di kawasan BSD.
+        
+        Lokasi: Jl. BSD Raya Pusat, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339
+
+        Google Maps: https://goo.gl/maps/RSnEqq8ES1FhVCxC8
+
+        Jam Operasional: 
+
+        Selasa - Minggu: 09.00 - 17.00
+        
+        Senin Masuk Ketika Libur Nasional
+        
+        Tiket: Gratis Tidak Boleh Membawa Makanan / Minuman dari Luar
+
+        Fasilitas: Area Parkir,Toilet,Mushola,Riding,Recreaction,Dining,Gathering,Pony Club
+
+        Kontak: 
+
+        081297138068
+        
+        02155686202
+
+        Sosial Media:
+
+        https://www.branchsto.com/
+        
+        https://www.instagram.com/branchsto/
+
+        Rating Pengguna: 4.5 / 5.0
+
+  utter_brancstobsdimage1:
+    - text: ""
+      image: https://asset.kompas.com/crops/Ja6un8O2W37yMy_kHSCgS3Ks4aw=/0x591:719x1071/1200x800/data/photo/2022/05/18/628484cdd0ca9.jpg
+  utter_brancstobsdimage2:
+    - text: ""
+      image: https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/02/13/88109da4-0057-407b-83a3-af673b947964-1613201451328-8cf0edc4da99a9a3101e747967923175.jpg
+  utter_brancstobsdimage3:
+    - text: ""
+      image: https://asset.kompas.com/crops/jr4OpbTlEjyH8L_gg5ECJyE8N_k=/481x0:5545x3376/750x500/data/photo/2021/12/24/61c5f5d84e326.jpg
+
+  utter_kebunlatte:
+    - text: >-
+        Kebun Latte adalah tempat wisata yang menggabungkan konsep kebun dengan kafe di Tangerang Selatan. Tempat ini menawarkan suasana alam yang indah dan menyenangkan untuk menikmati kopi dan makanan ringan. Pengunjung dapat menikmati berbagai jenis kopi yang kreatif, hidangan lezat, dan suasana yang cocok untuk bersantai. Kebun Latte menjadi destinasi favorit bagi pecinta kopi dan mereka yang ingin menikmati momen santai di tengah-tengah kebun yang hijau dan asri.
+        
+        Lokasi: Jl. H. Jamat No.12LA, Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15310
+
+        Google Maps: https://goo.gl/maps/tBU2pvkCRPFkL5wu8
+
+        Jam Operasional: 
+
+        Setiap Hari 08.00 - 22.00
+        
+        Tiket: Gratis Tidak Boleh Membawa Makanan / Minuman dari Luar
+
+        Fasilitas: Kafe Dengan Nuansa Hutan / Kebun Indoor & Outdoor,Toilet,Musholla,Area Parkir
+
+        Kontak: 
+
+        085710160233
+        
+        Sosial Media:
+
+        https://www.instagram.com/rimbun.csr/
+        
+
+        Rating Pengguna: 4.4 / 5.0
+
+  utter_kebunlatteimage1:
+    - text: ""
+      image: https://www.pinhome.id/info-area/wp-content/uploads/2022/05/kebun-latte-1.jpg
+  utter_kebunlatteimage2:
+    - text: ""
+      image: https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/09/5-dellaayu90.jpg
+  utter_kebunlatteimage3:
+    - text: ""
+      image: https://assets-pergikuliner.com/uploads/image/picture/1962808/picture-1594251250.JPG
+  
+  utter_kampungkonversirimbun:
+    - text: >-
+        Kampung Konservasi RIMBUN merupakan kampung tematik di Tangerang Selatan yang didedikasikan untuk mempromosikan kesadaran dan perlindungan lingkungan. Tempat ini menawarkan pengalaman belajar yang interaktif seputar alam, ekosistem, dan keanekaragaman hayati. Di kampung ini, pengunjung dapat menjelajahi jalur pendidikan lingkungan, melihat flora dan fauna, mengikuti kegiatan ekowisata, dan berpartisipasi dalam kegiatan konservasi. Dengan fasilitas edukasi dan rekreasi yang lengkap, Kampung Konservasi RIMBUN menjadi destinasi yang ideal untuk mengajak keluarga atau anak-anak dalam pembelajaran tentang pentingnya menjaga lingkungan dan keanekaragaman hayati.
+        
+        Lokasi: Jl. H. Jamat No.11, Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15310
+
+        Google Maps:https://goo.gl/maps/3fCutc4GycTNZaW27
+
+        Jam Operasional: 
+
+        Setiap Hari 10.00 - 20.00
+        
+        Tiket: Gratis Tidak Boleh Membawa Makanan / Minuman dari Luar
+
+        Fasilitas: Resto,Wedding,Camping,Fieldtrip,Toilet,Playground anak,Lahan parkir yang luas,Musholla,Saung,Toko buah dan sayuran segar
+
+        Kontak: 
+
+        081292203593
+        
+        Sosial Media:
+
+        https://www.instagram.com/kebunlatte/
+        
+
+        Rating Pengguna: 4.3 / 5.0
+
+  utter_kampungkonversirimbunimage1:
+    - text: ""
+      image: https://tangerangnews.com/assets/uploaded/photo/2021/03/03/4f2fbd135e1be8388228b6b914e6e617.jpg
+  utter_kampungkonversirimbunimage2:
+    - text: ""
+      image: https://tangerangnews.com/assets/uploaded/photo/2021/03/03/0c2f118284ed81e82a306c353a7eab5d.jpg?rand=49
+  utter_kampungkonversirimbunimage3:
+    - text: ""
+      image: https://tangerangnews.com/assets/uploaded/photo/2021/03/03/f6b53fb96e1019d16e65f3c54ce4a720.jpg?rand=6
+  
+  utter_jaletrengriverpark:
+    - text: >-
+        Jaletreng Riverpark merupakan tempat yang menarik dengan desain taman yang indah di sekitar Sungai Jaletreng. Di sini, pengunjung dapat menikmati berjalan-jalan di sepanjang sungai yang didesain dengan cantik, dilengkapi dengan pagar, bangku, dan lukisan mural yang menambah keunikan tempat ini. Terdapat pula berbagai hiburan seperti penyewaan kuda, kereta mini, mobil-mobilan, ATV, dan arena skateboard. Tersedia juga spot foto instagramable, taman bunga, taman bermain, dan jogging track. Jaletreng Riverpark menjadi tempat yang cocok untuk bersantai, menikmati alam, dan berbagai kegiatan rekreasi bagi pengunjung dari segala usia.
+        
+        Lokasi:  Jl. Setapak, Setu, Kec. Setu, Kota Tangerang Selatan, Banten 15314
+
+        Google Maps:https://goo.gl/maps/4Y3oimSozEsY5W3K8
+
+        Jam Operasional: 
+
+        Setiap Hari 06.00 - 18.00
+        
+        Tiket: Gratis
+
+        Fasilitas: jogging track, skate park, fitness outdoor, lapangan gate ball dan amphitheater,area parkir,spot foto,atv
+
+        Kontak: 
+
+        -
+        
+        Sosial Media:
+
+        -
+        
+        Rating Pengguna: 4.5 / 5.0
+
+  utter_jaletrengriverparkimage1:
+    - text: ""
+      image: https://tangerangnews.com/assets/uploaded/photo/2019/01/27/dad85a27e9b0f16aa0b2234cfd726267.jpg?rand=2
+  utter_jaletrengriverparkimage2:
+    - text: ""
+      image: https://tangerangnews.com/assets/uploaded/photo/2019/01/27/e187b8a2135fc1f3e134257df2cf5476.jpg?rand=18
+  utter_jaletrengriverparkimage3:
+    - text: ""
+      image: https://cdns.klimg.com/merdeka.com/i/w/news/2022/01/17/1398311/540x270/mirip-cheonggyecheon-di-seoul-ini-potret-taman-jaletreng-tangsel-yang-estetik.png
+
+  utter_tamanhutankotajombang:
+    - text: >-
+        Taman Hutan Kota Jombang Pembangunan prasarana dan bantaran kali mati jombang yang menjadi destinasi wisata baru berlokasi di Kelurahan Jombang, Ciputat, yang digarap DPU Kota Tangsel ini dimulai pada awal 2019 lalu.
+        
+        Lokasi: Jl. Pertanian, Jombang, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414
+
+        Google Maps: https://goo.gl/maps/BWxPMnQE21G44e4x5
+
+        Jam Operasional: 
+
+        Setiap Hari 07.00 - 17.00
+        
+        Tiket: Gratis
+
+        Fasilitas: Area Parkir,Toilet,Mushola,Gazebo,Kursi Melingkar,Spot Foto,Wahana Anak & Dewasa,Food Court
+
+        Kontak: 
+
+        -
+        
+        Sosial Media:
+
+        https://tamanhutankotajombang.business.site/
+        
+        Rating Pengguna: 4.3 / 5.0
+
+  utter_tamanhutankotajombangimage1:
+    - text: ""
+      image: https://asset.kompas.com/crops/dIjAFAqFLr_XuGFudY4emjUPaw0=/0x0:0x0/1200x800/data/photo/2020/02/10/5e40a52ed8a3a.jpg
+  utter_tamanhutankotajombangimage2:
+    - text: ""
+      image: https://static.republika.co.id/uploads/images/inpicture_slide/pemerintah-kota-tangerang-selatan-tangsel-melalui-dinas-pekerjaan-umum-_200126143454-488.png
+  utter_tamanhutankotajombangimage3:
+    - text: ""
+      image: https://abouttng.com/wp-content/uploads/2015/04/Hutan-Kota-Jombang.jpg
   
   utter_greet:
     - text: Hey! How are you?
