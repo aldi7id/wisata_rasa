@@ -34,12 +34,6 @@ rules:
   - action: utter_tamankotabsd1image1
   - action: utter_tamankotabsd1image2
   - action: utter_tamankotabsd1image3
-
-- rule: Taman Kota 2 BSD
-  steps:
-  - intent: tamankota2bsd
-    user: Taman Kota 2 BSD
-  - action: utter_tamankotabsd2
   - action: utter_tamankotabsd2image1
   - action: utter_tamankotabsd2image2
   - action: utter_tamankotabsd2image3
@@ -83,12 +77,92 @@ rules:
 - rule: Trans Snow World Bintaro
   steps:
   - intent: transswb
-    user: Ricastro Water Zone
+    user: Trans Snow World Bintaro
   - action: utter_transswb
   - action: utter_transswbimage1
   - action: utter_transswbimage2
   - action: utter_transswbimage3
 
+- rule: Taman Wisata Pulau Situ Gintung
+  steps:
+  - intent: tamanwisatapsg
+    user: Taman Wisata Pulau Situ Gintung
+  - action: utter_tamanwisatapsg
+  - action: utter_tamanwisatapsgimage1
+  - action: utter_tamanwisatapsgimage2
+  - action: utter_tamanwisatapsgimage3
+
+- rule: BX RINK Ice Skating Bintaro
+  steps:
+  - intent: bxrinkiceskating
+    user: BX RINK Ice Skating Bintaro
+  - action: utter_bxrinkiceskating
+  - action: utter_bxrinkiceskatingimage1
+  - action: utter_bxrinkiceskatingimage2
+  - action: utter_bxrinkiceskatingimage3
+
+- rule: Kampung Wisata Pinggir Rawa
+  steps:
+  - intent: kampungwisatapr
+    user: Kampung Wisata Pinggir Rawa
+  - action: utter_kampungwisatapr
+  - action: utter_kampungwisataprimage1
+  - action: utter_kampungwisataprimage2
+  - action: utter_kampungwisataprimage3
+
+- rule: Taman Edukasi Ganespa
+  steps:
+  - intent: tamanedukasiganespa
+    user: Taman Edukasi Ganespa
+  - action: utter_tamanedukasiganespa
+  - action: utter_tamanedukasiganespaimage1
+  - action: utter_tamanedukasiganespaimage2
+  - action: utter_tamanedukasiganespaimage3
+
+- rule: Branchsto BSD
+  steps:
+  - intent: brancstobsd
+    user: Branchsto BSD
+  - action: utter_brancstobsd
+  - action: utter_brancstobsdimage1
+  - action: utter_brancstobsdimage2
+  - action: utter_brancstobsdimage3
+
+- rule: Kebun Latte
+  steps:
+  - intent: kebunlatte
+    user: Kebun Latte
+  - action: utter_kebunlatte
+  - action: utter_kebunlatteimage1
+  - action: utter_kebunlatteimage2
+  - action: utter_kebunlatteimage3
+
+- rule: Kampung Konservasi RIMBUN
+  steps:
+  - intent: kampungwisatapr
+    user: Kampung Konservasi RIMBUN
+  - action: utter_kampungkonversirimbun
+  - action: utter_kampungkonversirimbunimage1
+  - action: utter_kampungkonversirimbunimage2
+  - action: utter_kampungkonversirimbunimage3
+
+- rule: Jaletreng Riverpark
+  steps:
+  - intent: jaletrengriverpark
+    user: Jaletreng Riverpark
+  - action: utter_jaletrengriverpark
+  - action: utter_jaletrengriverparkimage1
+  - action: utter_jaletrengriverparkimage2
+  - action: utter_jaletrengriverparkimage3
+
+- rule: Taman Hutan Kota Jombang
+  steps:
+  - intent: tamanhutankotajombang
+    user: Taman Hutan Kota Jombang
+  - action: utter_tamanhutankotajombang
+  - action: utter_tamanhutankotajombangimage1
+  - action: utter_tamanhutankotajombangimage2
+  - action: utter_tamanhutankotajombangimage3
 
 stories:
 - story: minta list wisata
