@@ -752,13 +752,13 @@ responses:
 
         Rating Pengguna: 4.4 / 5.0
 
-  utter_kampungwisatapriamge1:
+  utter_kampungwisataprimage1:
     - text: ""
       image: https://wisatatangerang.id/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-26-at-10.46.28-1024x575.jpeg
-  utter_kampungwisatapriamge2:
+  utter_kampungwisataprimage2:
     - text: ""
       image: https://hypeabis.id/assets/photo/20211206002708000000IMG2021112916593701.jpeg
-  utter_kampungwisatapriamge3:
+  utter_kampungwisataprimage3:
     - text: ""
       image: https://abouttng.com/wp-content/uploads/2020/03/IMG-20200130-WA0062-1-1024x768.jpg
 
