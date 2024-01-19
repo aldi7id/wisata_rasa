@@ -1,6 +1,6 @@
 # railway.toml
 
-# Tentukan versi Railway configuration
+# Versi konfigurasi Railway
 version = 2
 
 # Tentukan layanan atau kontainer
@@ -10,3 +10,4 @@ version = 2
   env = ["PYTHONPATH=/app"]
   ports = ["5006:5006", "8080:8080"]
   disk = 256
+  command = "bash -c 'pip install rasa && rasa run'"
