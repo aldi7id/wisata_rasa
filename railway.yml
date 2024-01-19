@@ -2,12 +2,9 @@ version: 2
 services:
   app:
     name: rasa-server
-    image: "python:3.7.7"
-    command: bash
+    image: railwayapp/python:3.7.7
     env:
       - PYTHONPATH=/app
-    volumes:
-      - /root/.cache/pip:/app/.cache/pip
     ports:
       - 5006:5006
       - 8080:8080
